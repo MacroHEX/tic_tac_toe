@@ -1,4 +1,4 @@
-class Main(object):
+class main(object):
     """description of class"""
 
 
