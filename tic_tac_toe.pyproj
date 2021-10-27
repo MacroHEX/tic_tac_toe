@@ -22,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="module1.py">
+    <Compile Include="main.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="tic_tac_toe.py" />
