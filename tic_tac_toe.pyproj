@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>aa0ff676-8ef9-43ec-a483-303be2f77e17</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>tic_tac_toe.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,13 +24,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="game.py">
+    <Compile Include="client.py" />
+    <Compile Include="server.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="grid.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="tic_tac_toe.py" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="Python 3.10\">
