@@ -23,7 +23,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="game.py">
+    <Compile Include="client.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="server.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="grid.py">
