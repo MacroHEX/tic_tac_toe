@@ -26,6 +26,9 @@
     <Compile Include="client.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="menu.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="server.py">
       <SubType>Code</SubType>
     </Compile>
@@ -48,6 +51,7 @@
     <Folder Include="res\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="res\bg.png" />
     <Content Include="res\letrao.png" />
     <Content Include="res\letrax.png" />
   </ItemGroup>
