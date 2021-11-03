@@ -2,7 +2,6 @@
 import pygame
 from grid import Grid
 
-
 import os
 # Defino ubicación por defecto de la ventana
 os.environ['SDL_VIDEO_WINDOW_POS'] = '850,100'
